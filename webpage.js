@@ -1,6 +1,6 @@
 let usersName = prompt("What is your name")
 //console.log("Hi " +usersName + " welcome to my page!");
-document.write = prompt("Hi " + usersName + " welcome to my page!");
+//document.write = prompt("Hi " + usersName + " welcome to my page!");
 
 if (usersName = "kassie", "Kassie") {
     alert("We love code fellows!");
@@ -12,11 +12,9 @@ function userAge() {
 }
 userAge();
 
-function Name() {
-    let name = prompt("what is your name?").trim();
-    if (name === "") {
-
-        prompt("What is really your name?")
-    }
+let userNum = prompt("Pick a Number!) (Between 1 & 5 Please") 
+for(let i = 0; i <userNum; i++){
+    document.write ( <img src="joker.jpg" />);
 }
-Name();
+
+
